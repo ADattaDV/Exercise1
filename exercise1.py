@@ -20,3 +20,4 @@ for test in results_data['results']:
         suc_data.append(test)
 
 print(suc_data)
+print("hi")
