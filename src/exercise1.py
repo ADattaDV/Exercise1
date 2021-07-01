@@ -11,7 +11,6 @@ def read_file(file_name):
     return data
 
 
-results_data = read_file('run_results.json')
 
 
 def save_json(index, test):
@@ -25,7 +24,7 @@ def does_test_pass():
     suc_data = []
     fail_data = []
     pass_count = 0
-    for index, test in enumerate(results_data['results']):
+    for index, test in enumerate(read_file('run_results.json')['results']):
         save_json(index, test)
         if test['status'] == 'pass':
             suc_data.append([index, test])
@@ -33,5 +32,8 @@ def does_test_pass():
         elif test['status'] == 'fail':
             fail_data.append([index, test])
     return suc_data, fail_data
-suc_data, fail_data = does_test_pass()
-print(suc_data[0][1])
+
+
+if __name__ == "__main__":
+    suc_data, fail_data = does_test_pass()
+    print("hi")
