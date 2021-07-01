@@ -1,0 +1,2884 @@
+{
+  "metadata": {
+    "dbt_schema_version": "https://schemas.getdbt.com/dbt/run-results/v1.json",
+    "dbt_version": "0.19.1",
+    "generated_at": "2021-06-21T11:12:28.974527Z",
+    "invocation_id": "4f3d9752-8ccc-4b5d-8584-f342b4a8c33b",
+    "env": {}
+  },
+  "results": [
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.713789Z",
+          "completed_at": "2021-06-21T11:03:53.791915Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:53.823170Z",
+          "completed_at": "2021-06-21T11:03:58.240745Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 5.2060911655426025,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_BANK_ACCOUNT_source_datalake_sbs_BANK_ACCOUNT_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.776289Z",
+          "completed_at": "2021-06-21T11:03:53.885665Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:53.916918Z",
+          "completed_at": "2021-06-21T11:03:58.966757Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 5.534230470657349,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_ROLE_source_datalake_sbs_FIN_TRANS_CATEGORY_ROLE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.791915Z",
+          "completed_at": "2021-06-21T11:03:53.948164Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:53.963790Z",
+          "completed_at": "2021-06-21T11:03:59.404268Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 6.497643947601318,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_FIN_TRANS_source_datalake_sbs_FIN_TRANS_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.791915Z",
+          "completed_at": "2021-06-21T11:03:53.885665Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:53.916918Z",
+          "completed_at": "2021-06-21T11:03:58.982380Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 6.872642517089844,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_source_datalake_sbs_FIN_TRANS_CATEGORY_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.776289Z",
+          "completed_at": "2021-06-21T11:03:53.870039Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:53.901289Z",
+          "completed_at": "2021-06-21T11:04:01.727073Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 8.453571557998657,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_CASH_BOOK_source_datalake_sbs_CASH_BOOK_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.791915Z",
+          "completed_at": "2021-06-21T11:03:53.916918Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:53.932541Z",
+          "completed_at": "2021-06-21T11:04:01.523947Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 8.859827280044556,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING_source_datalake_sbs_FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:58.951130Z",
+          "completed_at": "2021-06-21T11:03:58.966757Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:58.966757Z",
+          "completed_at": "2021-06-21T11:04:02.089232Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.684986114501953,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_LEDGER_TRANS_BREAKDOWN_source_datalake_sbs_LEDGER_TRANS_BREAKDOWN_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.823170Z",
+          "completed_at": "2021-06-21T11:03:54.230608Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:54.279704Z",
+          "completed_at": "2021-06-21T11:04:02.073603Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 8.984831809997559,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_LEDGER_ACCOUNT_source_datalake_sbs_LEDGER_ACCOUNT_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:00.336428Z",
+          "completed_at": "2021-06-21T11:04:00.336428Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:00.336428Z",
+          "completed_at": "2021-06-21T11:04:02.432990Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 3.216388463973999,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_POLICY_LINE_source_datalake_sbs_POLICY_LINE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:00.727059Z",
+          "completed_at": "2021-06-21T11:04:00.742687Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:00.742687Z",
+          "completed_at": "2021-06-21T11:04:02.432990Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.9820096492767334,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_POLICY_SETT_SCHED_SHARE_source_datalake_sbs_POLICY_SETT_SCHED_SHARE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:59.357387Z",
+          "completed_at": "2021-06-21T11:03:59.373012Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:59.373012Z",
+          "completed_at": "2021-06-21T11:04:02.589245Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 5.013509035110474,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_LEDGER_TRANS_source_datalake_sbs_LEDGER_TRANS_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:02.182983Z",
+          "completed_at": "2021-06-21T11:04:02.198608Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:02.198608Z",
+          "completed_at": "2021-06-21T11:04:03.834063Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.526918649673462,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_POLICY_SETT_SCHED_source_datalake_sbs_POLICY_SETT_SCHED_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:03:53.791915Z",
+          "completed_at": "2021-06-21T11:03:53.916918Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:03:53.932541Z",
+          "completed_at": "2021-06-21T11:04:03.420233Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 11.213613033294678,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_FIN_TRANS_DETAIL_source_datalake_sbs_FIN_TRANS_DETAIL_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:03.849892Z",
+          "completed_at": "2021-06-21T11:04:03.884892Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:03.887893Z",
+          "completed_at": "2021-06-21T11:04:05.140911Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.0950324535369873,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_LINE_source_datalake_sc_CLAIM_LINE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:02.983232Z",
+          "completed_at": "2021-06-21T11:04:03.055223Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:03.066222Z",
+          "completed_at": "2021-06-21T11:04:06.267925Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 3.864331007003784,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_SETTLEMENT_SCHEDULE_SHARE_DEDUCTION_source_datalake_sbs_SETTLEMENT_SCHEDULE_SHARE_DEDUCTION_"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:04.375894Z",
+          "completed_at": "2021-06-21T11:04:04.392894Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:04.392894Z",
+          "completed_at": "2021-06-21T11:04:06.588336Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 2.7676689624786377,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_STATUS_source_datalake_sc_CLAIM_STATUS_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:04.716902Z",
+          "completed_at": "2021-06-21T11:04:04.754901Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:04.755901Z",
+          "completed_at": "2021-06-21T11:04:06.982564Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.738675117492676,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_source_datalake_sc_CLAIM_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:02.636116Z",
+          "completed_at": "2021-06-21T11:04:02.667368Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:02.667368Z",
+          "completed_at": "2021-06-21T11:04:07.051565Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 4.992456436157227,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_POLICY_source_datalake_sbs_POLICY_"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:05.043903Z",
+          "completed_at": "2021-06-21T11:04:05.075904Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:05.075904Z",
+          "completed_at": "2021-06-21T11:04:07.133560Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 2.610665798187256,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_CURRENCY_source_datalake_sc_CURRENCY_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:02.651739Z",
+          "completed_at": "2021-06-21T11:04:02.667368Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:02.667368Z",
+          "completed_at": "2021-06-21T11:04:07.053565Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 5.051456689834595,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_SETTLEMENT_SCHEDULE_DEDUCTION_source_datalake_sbs_SETTLEMENT_SCHEDULE_DEDUCTION_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:05.937919Z",
+          "completed_at": "2021-06-21T11:04:05.950919Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:05.950919Z",
+          "completed_at": "2021-06-21T11:04:07.288566Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 1.883653163909912,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_LOSS_source_datalake_sc_LOSS_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:06.829554Z",
+          "completed_at": "2021-06-21T11:04:06.841556Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:06.841556Z",
+          "completed_at": "2021-06-21T11:04:08.736597Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 2.334040641784668,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_LINE_source_datalake_sc_MOVEMENT_CWT_LINE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:03.552816Z",
+          "completed_at": "2021-06-21T11:04:03.568430Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:03.568430Z",
+          "completed_at": "2021-06-21T11:04:08.761601Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 5.705788850784302,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SBS_USM_SIGNING_TRANS_source_datalake_sbs_USM_SIGNING_TRANS_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:07.168567Z",
+          "completed_at": "2021-06-21T11:04:07.183564Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:07.183564Z",
+          "completed_at": "2021-06-21T11:04:09.245603Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 2.4100499153137207,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_SPLIT_source_datalake_sc_MOVEMENT_CWT_SPLIT_"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:07.945594Z",
+          "completed_at": "2021-06-21T11:04:07.970577Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:07.974578Z",
+          "completed_at": "2021-06-21T11:04:09.556604Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.007033109664917,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_ORGANISATION_TYPE_source_datalake_sc_ORGANISATION_TYPE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:07.515574Z",
+          "completed_at": "2021-06-21T11:04:07.547569Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:07.549569Z",
+          "completed_at": "2021-06-21T11:04:09.589607Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.59143328666687,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_source_datalake_sc_MOVEMENT_CWT_"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:07.654574Z",
+          "completed_at": "2021-06-21T11:04:07.672573Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:07.673574Z",
+          "completed_at": "2021-06-21T11:04:10.292011Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 3.110440969467163,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_TYPE_source_datalake_sc_MOVEMENT_TYPE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:07.643577Z",
+          "completed_at": "2021-06-21T11:04:07.668577Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:07.669573Z",
+          "completed_at": "2021-06-21T11:04:10.553021Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 3.354454755783081,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_LINE_source_datalake_sc_MOVEMENT_LINE_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:07.695572Z",
+          "completed_at": "2021-06-21T11:04:07.734585Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:07.751576Z",
+          "completed_at": "2021-06-21T11:04:10.635018Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.3124501705169678,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_source_datalake_sc_MOVEMENT_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:09.575639Z",
+          "completed_at": "2021-06-21T11:04:09.591609Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:09.592609Z",
+          "completed_at": "2021-06-21T11:04:10.879023Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 1.6843852996826172,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_SPLIT_CATEGORY_source_datalake_sc_SPLIT_CATEGORY_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:09.166601Z",
+          "completed_at": "2021-06-21T11:04:09.182600Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:09.183600Z",
+          "completed_at": "2021-06-21T11:04:10.857025Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 2.2814342975616455,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_ORGANISATION_source_datalake_sc_ORGANISATION_"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:09.357599Z",
+          "completed_at": "2021-06-21T11:04:09.436607Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:09.440602Z",
+          "completed_at": "2021-06-21T11:04:11.133023Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.401430606842041,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_POLICY_source_datalake_sc_POLICY_"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:09.952615Z",
+          "completed_at": "2021-06-21T11:04:09.971615Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:09.972614Z",
+          "completed_at": "2021-06-21T11:04:11.668029Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.339423179626465,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.dbt_expectations_source_expect_table_row_count_to_equal_other_table_raw_stage_STG_SEQUEL_CLAIMS_SYNDICATE_source_datalake_sc_SYNDICATE_"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:10.231009Z",
+          "completed_at": "2021-06-21T11:04:10.338015Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:10.342010Z",
+          "completed_at": "2021-06-21T11:04:12.494051Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.7638089656829834,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_BANK_ACCOUNT_SQN_NUM__BANK_ACCOUNT_HASH_KEY__BANK_ACCOUNT_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__BANK_ACCOUNT_ID_TBKEY__BANK_ACCOUNT__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:10.770020Z",
+          "completed_at": "2021-06-21T11:04:10.790023Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:10.790023Z",
+          "completed_at": "2021-06-21T11:04:13.400533Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 3.1602981090545654,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_CASH_BOOK_SQN_NUM__CASH_BOOK_HASH_KEY__LINK_HASH_KEY__BANK_ACCOUNT_HASH_KEY__BANK_ACCOUNT_ID_TBKEY__CASH_BOOK_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__CASH_BOOK_ID_TBKEY__CASH_BOOK__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:11.137028Z",
+          "completed_at": "2021-06-21T11:04:11.207025Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:11.208028Z",
+          "completed_at": "2021-06-21T11:04:14.362500Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 3.93593430519104,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_ROLE_SQN_NUM__FIN_TRANS_CATEGORY_ROLE_HASH_KEY__LINK_HASH_KEY__FIN_TRANS_CATEGORY_HASH_KEY__FIN_TRANS_CATEGORY_ID_TBKEY__FIN_TRANS_CATEGORY_ROLE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__FIN_TRANS_CATEGORY_ROLE_ID_TBKEY__FIN_TRANS_CATEGORY_ROLE__STG_SBS_FIN_TRANS_CATEGORY_ROLE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:11.183032Z",
+          "completed_at": "2021-06-21T11:04:11.210026Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:11.231027Z",
+          "completed_at": "2021-06-21T11:04:14.725204Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 4.2559356689453125,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_SQN_NUM__FIN_TRANS_CATEGORY_HASH_KEY__LINK_HASH_KEY__LEDGER_ACCOUNT_HASH_KEY__LEDGER_ACCOUNT_ID_TBKEY__FIN_TRANS_CATEGORY_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__FIN_TRANS_CATEGORY_ID_TBKEY__FIN_TRANS_CATEGORY__STG_SBS_FIN_TRANS_CATEGORY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:11.951037Z",
+          "completed_at": "2021-06-21T11:04:12.055045Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:12.056041Z",
+          "completed_at": "2021-06-21T11:04:15.242952Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 4.253579378128052,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_FIN_TRANS_SQN_NUM__FIN_TRANS_HASH_KEY__LINK_HASH_KEY__POLICY_HASH_KEY__POLICY_ID_TBKEY__CASH_BOOK_HASH_KEY__CASH_BOOK_ID_TBKEY__FIN_TRANS_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__FIN_TRANS_ID_TBKEY__FIN_TRANS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:11.611033Z",
+          "completed_at": "2021-06-21T11:04:11.743037Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:11.755036Z",
+          "completed_at": "2021-06-21T11:04:16.417683Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 5.300662040710449,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_FIN_TRANS_DETAIL_SQN_NUM__FIN_TRANS_DETAIL_HASH_KEY__LINK_HASH_KEY__FIN_TRANS_HASH_KEY__FIN_TRANS_ID_TBKEY__FIN_TRANS_CATEGORY_ROLE_HASH_KEY__FIN_TRANS_CATEGORY_ROLE_ID_TBKEY__LEDGER_ACCOUNT_HASH_KEY__LEDGER_ACCOUNT_ID_TBKEY__FIN_TRANS_DETAIL_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__FIN_TRANS_DETAIL_ID_TBKEY__FIN_TRANS_DETAIL__STG_SBS_FIN_TRANS_DETAIL"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:11.272025Z",
+          "completed_at": "2021-06-21T11:04:11.290026Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:11.291027Z",
+          "completed_at": "2021-06-21T11:04:16.442683Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 5.659664869308472,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING_SQN_NUM__FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING_HASH_KEY__LINK_HASH_KEY__FIN_TRANS_CATEGORY_HASH_KEY__FIN_TRANS_CATEGORY_ID_TBKEY__FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__QUAL_CATEGORY_CODE_TBKEY__FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING__STG_SBS_FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:12.397043Z",
+          "completed_at": "2021-06-21T11:04:12.472045Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:12.475050Z",
+          "completed_at": "2021-06-21T11:04:16.610688Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 5.000662565231323,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_LEDGER_ACCOUNT_SQN_NUM__LEDGER_ACCOUNT_HASH_KEY__LEDGER_ACCOUNT_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__LEDGER_ACCOUNT_ID_TBKEY__LEDGER_ACCOUNT__STG_SBS_LEDGER_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:13.935373Z",
+          "completed_at": "2021-06-21T11:04:13.955317Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:13.955317Z",
+          "completed_at": "2021-06-21T11:04:17.072702Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 3.734342575073242,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_LEDGER_TRANS_SQN_NUM__LEDGER_TRANS_HASH_KEY__LINK_HASH_KEY__LEDGER_ACCOUNT_HASH_KEY__LEDGER_ACCOUNT_ID_TBKEY__FIN_TRANS_DETAIL_HASH_KEY__FIN_TRANS_DETAIL_ID_TBKEY__FIN_TRANS_CATEGORY_ROLE_HASH_KEY__FIN_TRANS_CATEGORY_ROLE_ID_TBKEY__LEDGER_TRANS_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__LEDGER_TRANS_ID_TBKEY__LEDGER_TRANS__STG_SBS_LEDGER_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:12.970810Z",
+          "completed_at": "2021-06-21T11:04:12.989807Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:12.989807Z",
+          "completed_at": "2021-06-21T11:04:16.878699Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 4.932906866073608,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_LEDGER_TRANS_BREAKDOWN_SQN_NUM__LEDGER_TRANS_BREAKDOWN_HASH_KEY__LINK_HASH_KEY__LEDGER_TRANS_HASH_KEY__LEDGER_TRANS_ID_TBKEY__LEDGER_TRANS_BREAKDOWN_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__LEDGER_TRANS_BREAKDOWN_ID_TBKEY__LEDGER_TRANS_BREAKDOWN__STG_SBS_LEDGER_TRANS_BREAKDOWN"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:16.198620Z",
+          "completed_at": "2021-06-21T11:04:16.217616Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:16.217616Z",
+          "completed_at": "2021-06-21T11:04:18.375544Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.9480183124542236,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_POLICY_SETT_SCHED_SQN_NUM__POLICY_SETT_SCHED_HASH_KEY__LINK_HASH_KEY__FIN_TRANS_HASH_KEY__FIN_TRANS_ID_TBKEY__LEDGER_ACCOUNT_HASH_KEY__LEDGER_ACCOUNT_ID_TBKEY__POLICY_SETT_SCHED_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__POLICY_SETT_SCHED_ID_TBKEY__POLICY_SETT_SCHED__STG_SBS_POLICY_SETT_SCHED"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:15.071955Z",
+          "completed_at": "2021-06-21T11:04:15.094956Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:15.095954Z",
+          "completed_at": "2021-06-21T11:04:18.992639Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 4.3776679039001465,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_POLICY_LINE_SQN_NUM__POLICY_LINE_HASH_KEY__LINK_HASH_KEY__POLICY_HASH_KEY__POLICY_ID_TBKEY__POLICY_LINE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__POLICY_LINE_ID_TBKEY__POLICY_LINE__STG_SBS_POLICY_LINE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:17.676712Z",
+          "completed_at": "2021-06-21T11:04:17.707719Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:17.708740Z",
+          "completed_at": "2021-06-21T11:04:20.045652Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 2.7096965312957764,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_USM_SIGNING_TRANS_SQN_NUM__USM_SIGNING_TRANS_HASH_KEY__LINK_HASH_KEY__FIN_TRANS_HASH_KEY__FIN_TRANS_ID_TBKEY__FIN_TRANS_CATEGORY_HASH_KEY__FIN_TRANS_CATEGORY_ID_TBKEY__POLICY_SETT_SCHED_SHARE_HASH_KEY__POLICY_SETT_SCHED_SHARE_ID_TBKEY__LEDGER_ACCOUNT_HASH_KEY__LEDGER_ACCOUNT_ID_TBKEY__USM_SIGNING_TRANS_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__USM_SIGNING_TRANS_ID_TBKEY__USM_SIGNING_TRANS__STG_SBS_USM_SIGNING_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:15.420959Z",
+          "completed_at": "2021-06-21T11:04:15.441959Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:15.442957Z",
+          "completed_at": "2021-06-21T11:04:20.310429Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 5.372434616088867,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_POLICY_SETT_SCHED_SHARE_SQN_NUM__POLICY_SETT_SCHED_SHARE_HASH_KEY__LINK_HASH_KEY__POLICY_SETT_SCHED_HASH_KEY__POLICY_SETT_SCHED_ID_TBKEY__FIN_TRANS_HASH_KEY__FIN_TRANS_ID_TBKEY__POLICY_SETT_SCHED_SHARE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__POLICY_SETT_SCHED_SHARE_ID_TBKEY__POLICY_SETT_SCHED_SHARE__STG_SBS_POLICY_SETT_SCHED_SHARE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:17.429701Z",
+          "completed_at": "2021-06-21T11:04:17.484715Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:17.484715Z",
+          "completed_at": "2021-06-21T11:04:20.426428Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 3.388685703277588,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_SETTLEMENT_SCHEDULE_SHARE_DEDUCTION_SQN_NUM__SETTLEMENT_SCHEDULE_SHARE_DEDUCTION_HASH_KEY__LINK_HASH_KEY__POLICY_SETT_SCHED_SHARE_HASH_KEY__POLICY_SETT_SCHED_SHARE_ID_TBKEY__SETTLEMENT_SCHEDULE_DEDUCTION_HASH_KEY__SETTLEMENT_SCHEDULE_DEDUCTION_ID_TBKEY__SETTLEMENT_SCHEDULE_SHARE_DEDUCTION_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__SETTLEMENT_SCHEDULE_SHARE_DEDUCTION_ID_TBKEY__SETTLEMENT_SCHEDULE_SHARE_DEDUCTION__STG_SBS_SETTLEMENT_SCHEDULE_SHARE_DEDUCTION"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:17.921718Z",
+          "completed_at": "2021-06-21T11:04:17.941718Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:17.941718Z",
+          "completed_at": "2021-06-21T11:04:20.533429Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 3.240684747695923,
+      "adapter_response": {},
+      "message": 25,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_LINE_SQN_NUM__CLAIM_LINE_HASH_KEY__LINK_HASH_KEY__CLAIM_HASH_KEY__CLAIM_ID_TBKEY__CLAIM_LINE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__CLAIM_LINE__STG_SEQUEL_CLAIMS_CLAIM_LINE"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:19.466642Z",
+          "completed_at": "2021-06-21T11:04:19.497644Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:19.498643Z",
+          "completed_at": "2021-06-21T11:04:21.496400Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.3267698287963867,
+      "adapter_response": {},
+      "message": 8,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_STATUS_SQN_NUM__CLAIM_STATUS_HASH_KEY__CLAIM_STATUS_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__CLAIM_STATUS__STG_SEQUEL_CLAIMS_CLAIM_STATUS"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:19.152643Z",
+          "completed_at": "2021-06-21T11:04:19.177639Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:19.178639Z",
+          "completed_at": "2021-06-21T11:04:21.331400Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.7907721996307373,
+      "adapter_response": {},
+      "message": 2,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_SQN_NUM__CLAIM_HASH_KEY__LINK_HASH_KEY__BROKER_ORGANISATION_HASH_KEY__BROKER_ID_TBKEY__CLIENT_ORGANISATION_ID_TBKEY__INSURED_ORGANISATION_ID_TBKEY__REINSURED_ORGANISATION_ID_TBKEY__LOSS_HASH_KEY__LOSS_ID_TBKEY__POLICY_HASH_KEY__POLICY_ID_TBKEY__CURRENCY_HASH_KEY__REPORTING_CURRENCY_ID_TBKEY__CLAIM_STATUS_HASH_KEY__STATUS_ID_TBKEY__CLAIM_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__CLIENT_ORGANISATION_HASH_KEY__INSURED_ORGANISATION_HASH_KEY__REINSURED_ORGANISATION_HASH_KEY__CLAIM__STG_SEQUEL_CLAIMS_CLAIM"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:16.900805Z",
+          "completed_at": "2021-06-21T11:04:16.916692Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:16.917693Z",
+          "completed_at": "2021-06-21T11:04:22.343418Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 5.723966598510742,
+      "adapter_response": {},
+      "message": 12,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_POLICY_SQN_NUM__POLICY_HASH_KEY__POLICY_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__POLICY_ID_TBKEY__POLICY__STG_SBS_POLICY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:16.938693Z",
+          "completed_at": "2021-06-21T11:04:16.957693Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:16.958695Z",
+          "completed_at": "2021-06-21T11:04:22.552008Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 6.251116752624512,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SBS_SETTLEMENT_SCHEDULE_DEDUCTION_SQN_NUM__SETTLEMENT_SCHEDULE_DEDUCTION_HASH_KEY__LINK_HASH_KEY__POLICY_SETT_SCHED_HASH_KEY__POLICY_SETT_SCHED_ID_TBKEY__FIN_TRANS_CATEGORY_HASH_KEY__FIN_TRANS_CATEGORY_ID_TBKEY__LEDGER_ACCOUNT_HASH_KEY__LEDGER_ACCOUNT_ID_TBKEY__SETTLEMENT_SCHEDULE_DEDUCTION_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__SETTLEMENT_SCHEDULE_DEDUCTION_ID_TBKEY__SETTLEMENT_SCHEDULE_DEDUCTION__STG_SBS_SETTLEMENT_SCHEDULE_DEDUCTION"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:21.266399Z",
+          "completed_at": "2021-06-21T11:04:21.330399Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:21.342404Z",
+          "completed_at": "2021-06-21T11:04:23.566863Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 3.186678886413574,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_SPLIT_SQN_NUM__MOVEMENT_CWT_SPLIT_HASH_KEY__LINK_HASH_KEY__MOVEMENT_CWT_LINE_HASH_KEY__MOVEMENT_CWT_LINE_ID_TBKEY__SPLIT_CATEGORY_HASH_KEY__SPLIT_CATEGORY_ID_TBKEY__ORGANISATION_HASH_KEY__ORGANISATION_ID_TBKEY__MOVEMENT_CWT_SPLIT_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__MOVEMENT_CWT_SPLIT__STG_SEQUEL_CLAIMS_MOVEMENT_CWT_SPLIT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:20.798393Z",
+          "completed_at": "2021-06-21T11:04:20.816394Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:20.816394Z",
+          "completed_at": "2021-06-21T11:04:23.775866Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.6886777877807617,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_LOSS_SQN_NUM__LOSS_HASH_KEY__LOSS_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__LOSS__STG_SEQUEL_CLAIMS_LOSS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:20.391423Z",
+          "completed_at": "2021-06-21T11:04:20.406420Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:20.407423Z",
+          "completed_at": "2021-06-21T11:04:24.316248Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 4.612652540206909,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_CURRENCY_SQN_NUM__CURRENCY_HASH_KEY__CURRENCY_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__CURRENCY__STG_SEQUEL_CLAIMS_CURRENCY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:22.085412Z",
+          "completed_at": "2021-06-21T11:04:22.139411Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:22.139411Z",
+          "completed_at": "2021-06-21T11:04:24.532063Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 3.067666530609131,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_LINE_SQN_NUM__MOVEMENT_LINE_HASH_KEY__LINK_HASH_KEY__MOVEMENT_HASH_KEY__MOVEMENT_ID_TBKEY__MOVEMENT_TYPE_HASH_KEY__MOVEMENT_TYPE_ID_TBKEY__MAIN_CURRENCY_HASH_KEY__CURRENCY_ID_MAIN_TBKEY__CURRENCY_ID_ORIGINAL_TBKEY__ORGANISATION_HASH_KEY__ORG_ID_TBKEY__MOVEMENT_LINE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__ORIGINAL_CURRENCY_HASH_KEY__MOVEMENT_LINE__STG_SEQUEL_CLAIMS_MOVEMENT_LINE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:21.798409Z",
+          "completed_at": "2021-06-21T11:04:21.815408Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:21.815408Z",
+          "completed_at": "2021-06-21T11:04:24.872073Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 3.715669870376587,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_SQN_NUM__MOVEMENT_CWT_HASH_KEY__LINK_HASH_KEY__CLAIM_HASH_KEY__CLAIM_ID_TBKEY__MOVEMENT_CWT_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__MOVEMENT_CWT__STG_SEQUEL_CLAIMS_MOVEMENT_CWT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:20.828389Z",
+          "completed_at": "2021-06-21T11:04:20.851390Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:20.851390Z",
+          "completed_at": "2021-06-21T11:04:25.139077Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 5.027693033218384,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_LINE_SQN_NUM__MOVEMENT_CWT_LINE_HASH_KEY__LINK_HASH_KEY__MOVEMENT_TYPE_HASH_KEY__MOVEMENT_TYPE_ID_TBKEY__MOVEMENT_CWT_HASH_KEY__MOVEMENT_CWT_ID_TBKEY__MAIN_CURRENCY_HASH_KEY__CURRENCY_ID_MAIN_TBKEY__CURRENCY_ID_ORIGINAL_TBKEY__MOVEMENT_CWT_LINE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__ORIGINAL_CURRENCY_HASH_KEY__MOVEMENT_CWT_LINE__STG_SEQUEL_CLAIMS_MOVEMENT_CWT_LINE"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:22.632775Z",
+          "completed_at": "2021-06-21T11:04:22.652772Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:22.652772Z",
+          "completed_at": "2021-06-21T11:04:25.902089Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 3.783320903778076,
+      "adapter_response": {},
+      "message": 138,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_SQN_NUM__MOVEMENT_HASH_KEY__LINK_HASH_KEY__MOVEMENT_CWT_HASH_KEY__MOVEMENT_CWT_ID_TBKEY__CLAIM_HASH_KEY__CLAIM_ID_TBKEY__MOVEMENT_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__MOVEMENT__STG_SEQUEL_CLAIMS_MOVEMENT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:23.195810Z",
+          "completed_at": "2021-06-21T11:04:23.210812Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:23.211821Z",
+          "completed_at": "2021-06-21T11:04:26.206091Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 3.865936517715454,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_TYPE_SQN_NUM__MOVEMENT_TYPE_HASH_KEY__MOVEMENT_TYPE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__MOVEMENT_TYPE__STG_SEQUEL_CLAIMS_MOVEMENT_TYPE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:24.457063Z",
+          "completed_at": "2021-06-21T11:04:24.475064Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:24.475064Z",
+          "completed_at": "2021-06-21T11:04:27.684359Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 3.5177555084228516,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_ORGANISATION_SQN_NUM__ORGANISATION_HASH_KEY__LINK_HASH_KEY__ORGANISATION_TYPE_HASH_KEY__ORGANISATION_TYPE_ID_TBKEY__ORGANISATION_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__ORGANISATION__STG_SEQUEL_CLAIMS_ORGANISATION"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:24.492075Z",
+          "completed_at": "2021-06-21T11:04:24.507065Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:24.507065Z",
+          "completed_at": "2021-06-21T11:04:27.703357Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.5767550468444824,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_ORGANISATION_TYPE_SQN_NUM__ORGANISATION_TYPE_HASH_KEY__ORGANISATION_TYPE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__ORGANISATION_TYPE__STG_SEQUEL_CLAIMS_ORGANISATION_TYPE"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:25.175078Z",
+          "completed_at": "2021-06-21T11:04:25.204078Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:25.204078Z",
+          "completed_at": "2021-06-21T11:04:28.126827Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 3.4057774543762207,
+      "adapter_response": {},
+      "message": 2,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_SPLIT_CATEGORY_SQN_NUM__SPLIT_CATEGORY_HASH_KEY__SPLIT_CATEGORY_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__SPLIT_CATEGORY__STG_SEQUEL_CLAIMS_SPLIT_CATEGORY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:25.547082Z",
+          "completed_at": "2021-06-21T11:04:25.563083Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:25.563083Z",
+          "completed_at": "2021-06-21T11:04:28.304827Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 3.2167811393737793,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_SYNDICATE_SQN_NUM__SYNDICATE_HASH_KEY__SYNDICATE_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__SYNDICATE__STG_SEQUEL_CLAIMS_SYNDICATE"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:25.011082Z",
+          "completed_at": "2021-06-21T11:04:25.032073Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:25.033076Z",
+          "completed_at": "2021-06-21T11:04:28.574832Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 3.978792428970337,
+      "adapter_response": {},
+      "message": 267,
+      "unique_id": "test.arcus_dbt_tests.source_expect_payload_column_count_to_be_equal_raw_stage_STG_SEQUEL_CLAIMS_POLICY_SQN_NUM__POLICY_HASH_KEY__LINK_HASH_KEY__CURRENCY_HASH_KEY__CCY_ID_TBKEY__POLICY_HASH_DIFF__LOAD_DATETIME__RECORD_SOURCE__ID_TBKEY__POLICY__STG_SEQUEL_CLAIMS_POLICY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:25.885089Z",
+          "completed_at": "2021-06-21T11:04:25.907089Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:25.909087Z",
+          "completed_at": "2021-06-21T11:04:28.724836Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 3.4717838764190674,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ACCOUNT__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:26.423098Z",
+          "completed_at": "2021-06-21T11:04:26.435095Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:26.436096Z",
+          "completed_at": "2021-06-21T11:04:29.252877Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 3.5027830600738525,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_CASH_BOOK_CASH_BOOK__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:27.068748Z",
+          "completed_at": "2021-06-21T11:04:27.082745Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:27.082745Z",
+          "completed_at": "2021-06-21T11:04:29.461878Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 3.0661263465881348,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_FIN_TRANS_CATEGORY__STG_SBS_FIN_TRANS_CATEGORY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:27.978831Z",
+          "completed_at": "2021-06-21T11:04:27.992828Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:27.993837Z",
+          "completed_at": "2021-06-21T11:04:30.427897Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.8562917709350586,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_ROLE_FIN_TRANS_CATEGORY_ROLE__STG_SBS_FIN_TRANS_CATEGORY_ROLE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:28.072829Z",
+          "completed_at": "2021-06-21T11:04:28.084828Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:28.084828Z",
+          "completed_at": "2021-06-21T11:04:30.774005Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.207329511642456,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING_FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING__STG_SBS_FIN_TRANS_CATEGORY_USM_QUAL_CATEGORY_CODE_MAPPING"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:28.607830Z",
+          "completed_at": "2021-06-21T11:04:28.640835Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:28.640835Z",
+          "completed_at": "2021-06-21T11:04:31.140124Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 3.067415237426758,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_FIN_TRANS_DETAIL_FIN_TRANS_DETAIL__STG_SBS_FIN_TRANS_DETAIL"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:28.772866Z",
+          "completed_at": "2021-06-21T11:04:28.789862Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:28.789862Z",
+          "completed_at": "2021-06-21T11:04:31.519162Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 3.257310628890991,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_FIN_TRANS_FIN_TRANS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:29.943902Z",
+          "completed_at": "2021-06-21T11:04:29.981881Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:29.982886Z",
+          "completed_at": "2021-06-21T11:04:32.263214Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 2.735482931137085,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_LEDGER_TRANS_LEDGER_TRANS__STG_SBS_LEDGER_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:30.303890Z",
+          "completed_at": "2021-06-21T11:04:30.328893Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:30.330891Z",
+          "completed_at": "2021-06-21T11:04:32.387216Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 2.4814751148223877,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_POLICY_LINE_POLICY_LINE__STG_SBS_POLICY_LINE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:29.576876Z",
+          "completed_at": "2021-06-21T11:04:29.590882Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:29.590882Z",
+          "completed_at": "2021-06-21T11:04:32.626296Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 3.522505283355713,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_LEDGER_TRANS_BREAKDOWN_LEDGER_TRANS_BREAKDOWN__STG_SBS_LEDGER_TRANS_BREAKDOWN"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:29.046868Z",
+          "completed_at": "2021-06-21T11:04:29.193883Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:29.205876Z",
+          "completed_at": "2021-06-21T11:04:32.761366Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 4.120496988296509,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_LEDGER_ACCOUNT_LEDGER_ACCOUNT__STG_SBS_LEDGER_ACCOUNT"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:30.839124Z",
+          "completed_at": "2021-06-21T11:04:30.852117Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:30.853120Z",
+          "completed_at": "2021-06-21T11:04:32.925365Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.5212481021881104,
+      "adapter_response": {},
+      "message": 12,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_POLICY_POLICY__STG_SBS_POLICY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:31.285175Z",
+          "completed_at": "2021-06-21T11:04:31.295159Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:31.295159Z",
+          "completed_at": "2021-06-21T11:04:33.472379Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 2.627220392227173,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_POLICY_SETT_SCHED_POLICY_SETT_SCHED__STG_SBS_POLICY_SETT_SCHED"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:31.667167Z",
+          "completed_at": "2021-06-21T11:04:31.678165Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:31.678165Z",
+          "completed_at": "2021-06-21T11:04:33.729376Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.531219959259033,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_POLICY_SETT_SCHED_SHARE_POLICY_SETT_SCHED_SHARE__STG_SBS_POLICY_SETT_SCHED_SHARE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:32.035172Z",
+          "completed_at": "2021-06-21T11:04:32.047171Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:32.047171Z",
+          "completed_at": "2021-06-21T11:04:34.210390Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.74422025680542,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_SETTLEMENT_SCHEDULE_DEDUCTION_SETTLEMENT_SCHEDULE_DEDUCTION__STG_SBS_SETTLEMENT_SCHEDULE_DEDUCTION"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:32.674368Z",
+          "completed_at": "2021-06-21T11:04:32.688361Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:32.688361Z",
+          "completed_at": "2021-06-21T11:04:35.274679Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 3.014636993408203,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_SETTLEMENT_SCHEDULE_SHARE_DEDUCTION_SETTLEMENT_SCHEDULE_SHARE_DEDUCTION__STG_SBS_SETTLEMENT_SCHEDULE_SHARE_DEDUCTION"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:33.092366Z",
+          "completed_at": "2021-06-21T11:04:33.103364Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:33.104365Z",
+          "completed_at": "2021-06-21T11:04:35.495834Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.743650436401367,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_CLAIM__STG_SEQUEL_CLAIMS_CLAIM"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:32.774363Z",
+          "completed_at": "2021-06-21T11:04:32.823367Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:32.839366Z",
+          "completed_at": "2021-06-21T11:04:35.474835Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 3.2376480102539062,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SBS_USM_SIGNING_TRANS_USM_SIGNING_TRANS__STG_SBS_USM_SIGNING_TRANS"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:33.172367Z",
+          "completed_at": "2021-06-21T11:04:33.196365Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:33.197367Z",
+          "completed_at": "2021-06-21T11:04:35.696007Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 2.996640682220459,
+      "adapter_response": {},
+      "message": 25,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_LINE_CLAIM_LINE__STG_SEQUEL_CLAIMS_CLAIM_LINE"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:33.366373Z",
+          "completed_at": "2021-06-21T11:04:33.407370Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:33.408374Z",
+          "completed_at": "2021-06-21T11:04:35.669014Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.8716506958007812,
+      "adapter_response": {},
+      "message": 8,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_CLAIM_STATUS_CLAIM_STATUS__STG_SEQUEL_CLAIMS_CLAIM_STATUS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:34.228386Z",
+          "completed_at": "2021-06-21T11:04:34.252384Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:34.253382Z",
+          "completed_at": "2021-06-21T11:04:36.677020Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 3.499208927154541,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_LOSS_LOSS__STG_SEQUEL_CLAIMS_LOSS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:33.917378Z",
+          "completed_at": "2021-06-21T11:04:33.928383Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:33.928383Z",
+          "completed_at": "2021-06-21T11:04:37.239842Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.96823787689209,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_CURRENCY_CURRENCY__STG_SEQUEL_CLAIMS_CURRENCY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:34.787394Z",
+          "completed_at": "2021-06-21T11:04:34.798394Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:34.799396Z",
+          "completed_at": "2021-06-21T11:04:37.337456Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 3.1962485313415527,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_LINE_MOVEMENT_CWT_LINE__STG_SEQUEL_CLAIMS_MOVEMENT_CWT_LINE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:35.965012Z",
+          "completed_at": "2021-06-21T11:04:35.997010Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:36.005012Z",
+          "completed_at": "2021-06-21T11:04:38.983669Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 3.96675443649292,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_SPLIT_MOVEMENT_CWT_SPLIT__STG_SEQUEL_CLAIMS_MOVEMENT_CWT_SPLIT"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:36.325020Z",
+          "completed_at": "2021-06-21T11:04:36.356019Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:36.356019Z",
+          "completed_at": "2021-06-21T11:04:39.634777Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 4.470754861831665,
+      "adapter_response": {},
+      "message": 136,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_MOVEMENT__STG_SEQUEL_CLAIMS_MOVEMENT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:36.339018Z",
+          "completed_at": "2021-06-21T11:04:36.360017Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:36.360017Z",
+          "completed_at": "2021-06-21T11:04:39.981768Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 4.703762054443359,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_TYPE_MOVEMENT_TYPE__STG_SEQUEL_CLAIMS_MOVEMENT_TYPE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:35.698005Z",
+          "completed_at": "2021-06-21T11:04:35.711018Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:35.712011Z",
+          "completed_at": "2021-06-21T11:04:40.439628Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 5.654517889022827,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_CWT_MOVEMENT_CWT__STG_SEQUEL_CLAIMS_MOVEMENT_CWT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:37.980617Z",
+          "completed_at": "2021-06-21T11:04:38.031627Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:38.033622Z",
+          "completed_at": "2021-06-21T11:04:41.567530Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.9529166221618652,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_ORGANISATION_TYPE_ORGANISATION_TYPE__STG_SEQUEL_CLAIMS_ORGANISATION_TYPE"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:38.038620Z",
+          "completed_at": "2021-06-21T11:04:38.073625Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:38.075622Z",
+          "completed_at": "2021-06-21T11:04:41.081786Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 3.90891170501709,
+      "adapter_response": {},
+      "message": 267,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_POLICY_POLICY__STG_SEQUEL_CLAIMS_POLICY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:36.038013Z",
+          "completed_at": "2021-06-21T11:04:36.059010Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:36.061014Z",
+          "completed_at": "2021-06-21T11:04:41.472528Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 6.516535520553589,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_MOVEMENT_LINE_MOVEMENT_LINE__STG_SEQUEL_CLAIMS_MOVEMENT_LINE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:37.726592Z",
+          "completed_at": "2021-06-21T11:04:37.739591Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:37.740590Z",
+          "completed_at": "2021-06-21T11:04:42.265550Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 4.974958658218384,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_ORGANISATION_ORGANISATION__STG_SEQUEL_CLAIMS_ORGANISATION"
+    },
+    {
+      "status": "fail",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:39.936768Z",
+          "completed_at": "2021-06-21T11:04:39.949770Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:39.950768Z",
+          "completed_at": "2021-06-21T11:04:42.720549Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 3.2429141998291016,
+      "adapter_response": {},
+      "message": 1,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_SPLIT_CATEGORY_SPLIT_CATEGORY__STG_SEQUEL_CLAIMS_SPLIT_CATEGORY"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:41.063784Z",
+          "completed_at": "2021-06-21T11:04:41.090786Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:41.094785Z",
+          "completed_at": "2021-06-21T11:04:43.626943Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.8728861808776855,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BAL_DATE__BAL_DATE__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:40.773777Z",
+          "completed_at": "2021-06-21T11:04:40.786775Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:40.786775Z",
+          "completed_at": "2021-06-21T11:04:44.335103Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 3.816333293914795,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_table_contains_all_columns_from_other_table_raw_stage_STG_SEQUEL_CLAIMS_SYNDICATE_SYNDICATE__STG_SEQUEL_CLAIMS_SYNDICATE"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:41.389528Z",
+          "completed_at": "2021-06-21T11:04:41.416530Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:41.417525Z",
+          "completed_at": "2021-06-21T11:04:44.355181Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 3.2815747261047363,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ACCOUNT_HOLDER_ORG_ROLE_ID__BANK_ACCOUNT_HOLDER_ORG_ROLE_ID__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:41.951536Z",
+          "completed_at": "2021-06-21T11:04:41.975541Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:41.977539Z",
+          "completed_at": "2021-06-21T11:04:44.356138Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.7845709323883057,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ACCOUNT_ID__BANK_ACCOUNT_ID__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:41.930538Z",
+          "completed_at": "2021-06-21T11:04:41.944537Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:41.944537Z",
+          "completed_at": "2021-06-21T11:04:44.475010Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.1215741634368896,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ACCOUNT_HOLDER__BANK_ACCOUNT_HOLDER__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:42.706555Z",
+          "completed_at": "2021-06-21T11:04:42.724551Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:42.733545Z",
+          "completed_at": "2021-06-21T11:04:44.808113Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.5655574798583984,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ACCOUNT_ROW_ID__BANK_ACCOUNT_ROW_ID__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:42.560551Z",
+          "completed_at": "2021-06-21T11:04:42.582546Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:42.583544Z",
+          "completed_at": "2021-06-21T11:04:45.207116Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 3.1665778160095215,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ACCOUNT_NUM__BANK_ACCOUNT_NUM__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:43.188664Z",
+          "completed_at": "2021-06-21T11:04:43.203668Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:43.203668Z",
+          "completed_at": "2021-06-21T11:04:45.492119Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.7194600105285645,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ACCOUNT_TYPE__BANK_ACCOUNT_TYPE__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:43.940673Z",
+          "completed_at": "2021-06-21T11:04:43.954668Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:43.954668Z",
+          "completed_at": "2021-06-21T11:04:45.820127Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.1924631595611572,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_BANK_ORG_ROLE_ID__BANK_ORG_ROLE_ID__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:44.875106Z",
+          "completed_at": "2021-06-21T11:04:44.902111Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:44.903111Z",
+          "completed_at": "2021-06-21T11:04:46.916487Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.3099989891052246,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_DEL__DEL__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:44.594107Z",
+          "completed_at": "2021-06-21T11:04:44.608106Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:44.608106Z",
+          "completed_at": "2021-06-21T11:04:46.853658Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 2.660001516342163,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_CCY_ISO__CCY_ISO__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:45.278115Z",
+          "completed_at": "2021-06-21T11:04:45.291112Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:45.292114Z",
+          "completed_at": "2021-06-21T11:04:47.637115Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.7823612689971924,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_IBAN__IBAN__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:45.803125Z",
+          "completed_at": "2021-06-21T11:04:45.819123Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:45.820127Z",
+          "completed_at": "2021-06-21T11:04:47.712116Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 2.294351816177368,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_OPENING_BAL__OPENING_BAL__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:45.059111Z",
+          "completed_at": "2021-06-21T11:04:45.076113Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:45.077122Z",
+          "completed_at": "2021-06-21T11:04:47.831116Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 3.054363250732422,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_EFFECTIVE_DATE__EFFECTIVE_DATE__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:46.139130Z",
+          "completed_at": "2021-06-21T11:04:46.155129Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:46.155129Z",
+          "completed_at": "2021-06-21T11:04:47.894186Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.0323445796966553,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_PAYEE_NAME__PAYEE_NAME__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:45.972131Z",
+          "completed_at": "2021-06-21T11:04:45.990126Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:45.991126Z",
+          "completed_at": "2021-06-21T11:04:47.808115Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.2023541927337646,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_OWNER_ID__OWNER_ID__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:47.182106Z",
+          "completed_at": "2021-06-21T11:04:47.196107Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:47.196107Z",
+          "completed_at": "2021-06-21T11:04:49.329504Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.580397367477417,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_SORT_CODE__SORT_CODE__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:47.259106Z",
+          "completed_at": "2021-06-21T11:04:47.270108Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:47.271109Z",
+          "completed_at": "2021-06-21T11:04:49.373498Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 2.5754005908966064,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_SWIFT__SWIFT__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:44.680104Z",
+          "completed_at": "2021-06-21T11:04:44.692108Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:44.698107Z",
+          "completed_at": "2021-06-21T11:04:49.465499Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 5.160404443740845,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_CREATED_DATE__CREATED_DATE__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:48.068474Z",
+          "completed_at": "2021-06-21T11:04:48.092484Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:48.095511Z",
+          "completed_at": "2021-06-21T11:04:50.619521Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.841050624847412,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_SYS_TIMESTAMP__SYS_TIMESTAMP__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:48.131480Z",
+          "completed_at": "2021-06-21T11:04:48.149475Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:48.150478Z",
+          "completed_at": "2021-06-21T11:04:50.697517Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 2.836042881011963,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_USER_ID__USER_ID__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:48.111477Z",
+          "completed_at": "2021-06-21T11:04:48.129484Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:48.130482Z",
+          "completed_at": "2021-06-21T11:04:50.823522Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 3.1630570888519287,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_BANK_ACCOUNT_UPD_DATE__UPD_DATE__BANK_ACCOUNT__SBS__STG_SBS_BANK_ACCOUNT"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:48.196477Z",
+          "completed_at": "2021-06-21T11:04:48.211477Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:48.212479Z",
+          "completed_at": "2021-06-21T11:04:51.273530Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 3.4930644035339355,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_CASH_BOOK_DSC__CASH_BOOK_DSC__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:48.184479Z",
+          "completed_at": "2021-06-21T11:04:48.208477Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:48.209479Z",
+          "completed_at": "2021-06-21T11:04:51.378528Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 3.5720624923706055,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_BANK_ACCOUNT_ID__BANK_ACCOUNT_ID__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:49.767505Z",
+          "completed_at": "2021-06-21T11:04:49.778503Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:49.778503Z",
+          "completed_at": "2021-06-21T11:04:51.694537Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.5670440196990967,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_CASH_BOOK_ID__CASH_BOOK_ID__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:49.843503Z",
+          "completed_at": "2021-06-21T11:04:49.893505Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:49.911503Z",
+          "completed_at": "2021-06-21T11:04:51.932543Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 2.5710437297821045,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_CASH_BOOK_NAME__CASH_BOOK_NAME__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:49.855509Z",
+          "completed_at": "2021-06-21T11:04:49.899512Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:49.928503Z",
+          "completed_at": "2021-06-21T11:04:52.067540Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 2.6790425777435303,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_CASH_BOOK_ROW_ID__CASH_BOOK_ROW_ID__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:50.915521Z",
+          "completed_at": "2021-06-21T11:04:50.927524Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:50.927524Z",
+          "completed_at": "2021-06-21T11:04:53.250668Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.6891472339630127,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_CASH_BOOK_STATUS__CASH_BOOK_STATUS__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:51.436531Z",
+          "completed_at": "2021-06-21T11:04:51.450531Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:51.451531Z",
+          "completed_at": "2021-06-21T11:04:53.398674Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 2.328144073486328,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_DEL__DEL__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:50.971524Z",
+          "completed_at": "2021-06-21T11:04:50.985526Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:50.986529Z",
+          "completed_at": "2021-06-21T11:04:53.537675Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 2.970160484313965,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_CREATED_DATE__CREATED_DATE__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:51.706535Z",
+          "completed_at": "2021-06-21T11:04:51.721534Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:51.722537Z",
+          "completed_at": "2021-06-21T11:04:54.219683Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.846158266067505,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_EFFECTIVE_DATE__EFFECTIVE_DATE__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:51.758535Z",
+          "completed_at": "2021-06-21T11:04:51.768536Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:51.769536Z",
+          "completed_at": "2021-06-21T11:04:54.187684Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.818150281906128,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_OWNER_ID__OWNER_ID__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:52.364547Z",
+          "completed_at": "2021-06-21T11:04:52.406549Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:52.409547Z",
+          "completed_at": "2021-06-21T11:04:54.756698Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.8961617946624756,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_PRODUCING_OFFICE__PRODUCING_OFFICE__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:52.421550Z",
+          "completed_at": "2021-06-21T11:04:52.435547Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:52.435547Z",
+          "completed_at": "2021-06-21T11:04:54.883722Z"
+        }
+      ],
+      "thread_id": "Thread-6",
+      "execution_time": 2.9191601276397705,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_SYND__SYND__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:52.737551Z",
+          "completed_at": "2021-06-21T11:04:52.824559Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:52.835556Z",
+          "completed_at": "2021-06-21T11:04:55.218703Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 3.019160270690918,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_SYS_TIMESTAMP__SYS_TIMESTAMP__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:53.611674Z",
+          "completed_at": "2021-06-21T11:04:53.624676Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:53.625677Z",
+          "completed_at": "2021-06-21T11:04:55.776717Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.578073024749756,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_UPD_DATE__UPD_DATE__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:53.893685Z",
+          "completed_at": "2021-06-21T11:04:53.909678Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:53.910681Z",
+          "completed_at": "2021-06-21T11:04:56.097718Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 2.83510160446167,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_CASH_BOOK_USER_ID__USER_ID__CASH_BOOK__SBS__STG_SBS_CASH_BOOK"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:53.949679Z",
+          "completed_at": "2021-06-21T11:04:53.960682Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:53.960682Z",
+          "completed_at": "2021-06-21T11:04:56.447721Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 2.8820998668670654,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_ACCOUNT_DATE__ACCOUNT_DATE__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:54.555688Z",
+          "completed_at": "2021-06-21T11:04:54.568686Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:54.568686Z",
+          "completed_at": "2021-06-21T11:04:57.030784Z"
+        }
+      ],
+      "thread_id": "Thread-5",
+      "execution_time": 2.9341325759887695,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_ACCOUNT_PERIOD__ACCOUNT_PERIOD__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:54.582691Z",
+          "completed_at": "2021-06-21T11:04:54.596690Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:54.596690Z",
+          "completed_at": "2021-06-21T11:04:57.046786Z"
+        }
+      ],
+      "thread_id": "Thread-2",
+      "execution_time": 2.929131269454956,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_ACCOUNT_TO_BASE_CCY_ROE__ACCOUNT_TO_BASE_CCY_ROE__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:55.266706Z",
+          "completed_at": "2021-06-21T11:04:55.285713Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:55.286709Z",
+          "completed_at": "2021-06-21T11:04:57.646820Z"
+        }
+      ],
+      "thread_id": "Thread-4",
+      "execution_time": 2.8561291694641113,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_ADVICE_DATE__ADVICE_DATE__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:55.857716Z",
+          "completed_at": "2021-06-21T11:04:55.900717Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:55.900717Z",
+          "completed_at": "2021-06-21T11:04:57.994826Z"
+        }
+      ],
+      "thread_id": "Thread-8",
+      "execution_time": 2.5851311683654785,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_AS_AT_DATE__AS_AT_DATE__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:56.193719Z",
+          "completed_at": "2021-06-21T11:04:56.206719Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:56.207721Z",
+          "completed_at": "2021-06-21T11:04:58.190836Z"
+        }
+      ],
+      "thread_id": "Thread-7",
+      "execution_time": 2.3740949630737305,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_AUTO_ALLOCATION_STATUS__AUTO_ALLOCATION_STATUS__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:56.731778Z",
+          "completed_at": "2021-06-21T11:04:56.745778Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:56.746777Z",
+          "completed_at": "2021-06-21T11:04:58.937884Z"
+        }
+      ],
+      "thread_id": "Thread-3",
+      "execution_time": 2.503153085708618,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_BATCH_ID__BATCH_ID__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    },
+    {
+      "status": "pass",
+      "timing": [
+        {
+          "name": "compile",
+          "started_at": "2021-06-21T11:04:56.862786Z",
+          "completed_at": "2021-06-21T11:04:56.946780Z"
+        },
+        {
+          "name": "execute",
+          "started_at": "2021-06-21T11:04:56.968782Z",
+          "completed_at": "2021-06-21T11:04:59.112889Z"
+        }
+      ],
+      "thread_id": "Thread-1",
+      "execution_time": 2.5881502628326416,
+      "adapter_response": {},
+      "message": 0,
+      "unique_id": "test.arcus_dbt_tests.source_expect_types_are_identical_raw_stage_STG_SBS_FIN_TRANS_BATCH_NUM__BATCH_NUM__FIN_TRANS__SBS__STG_SBS_FIN_TRANS"
+    }
+  ],
+  "elapsed_time": 523.9742605686188,
+  "args": {
+    "log_format": "default",
+    "write_json": true,
+    "profiles_dir": "P:\\.dbt",
+    "use_cache": true,
+    "data": false,
+    "schema": false,
+    "version_check": true,
+    "selector_name": "sit_tests",
+    "which": "test",
+    "rpc_method": "test"
+  }
+}
