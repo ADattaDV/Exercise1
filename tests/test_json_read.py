@@ -6,12 +6,22 @@ source_file = '/home/aakashdatta/PycharmProjects/Exercise1/src/run_results.json'
 
 
 def test_if_source_is_file():
-    print("hi", os.path.isfile(source_file))
-    assert os.path.isfile(source_file)
+    print(os.path.isfile(source_file))
+    if not os.path.isfile(source_file):
+        print('Error: This is not a valid file path.')
+        assert False
+
+
+def test_is_source_corrupt():
+    try: 
+        data = read_file(source_file)
+    except valueError as err:
+        print("Error: This source file is corrupt.")
+        assert False
 
 
 def test_json_reader_is_dict():
-    file_output = read_file(source_name)
+    file_output = read_file(source_file)
     assert isinstance(file_output, dict)
 
 
