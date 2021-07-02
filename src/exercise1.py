@@ -1,5 +1,6 @@
 import json
 import os
+
 output_path = '/home/aakashdatta/PycharmProjects/Exercise1/Output'
 
 
@@ -9,8 +10,6 @@ def read_file(file_name):
         data = json.load(file)
         file.close()
     return data
-
-
 
 
 def save_json(index, test):
