@@ -35,4 +35,4 @@ def does_test_pass():
 
 if __name__ == "__main__":
     suc_data, fail_data = does_test_pass()
-    print("hi")
+    print(suc_data)

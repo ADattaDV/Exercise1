@@ -2,11 +2,16 @@ from exercise1 import *
 
 import pytest
 import os
+source_file = '/home/aakashdatta/PycharmProjects/Exercise1/src/run_results.json'
+
+
+def test_if_source_is_file():
+    print("hi", os.path.isfile(source_file))
+    assert os.path.isfile(source_file)
 
 
 def test_json_reader_is_dict():
-    file_name = './run_results.json'
-    file_output = read_file(file_name)
+    file_output = read_file(source_name)
     assert isinstance(file_output, dict)
 
 
