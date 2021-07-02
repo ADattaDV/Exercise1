@@ -5,7 +5,7 @@ import os
 source_file = '/home/aakashdatta/PycharmProjects/Exercise1/src/run_results.json'
 
 
-def test_if_source_is_file():
+def test_is_source_file():
     print(os.path.isfile(source_file))
     if not os.path.isfile(source_file):
         print('Error: This is not a valid file path.')

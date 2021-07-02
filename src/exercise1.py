@@ -1,6 +1,7 @@
 import json
 import os
-
+import datetime
+begin_time = datetime.datetime.now()
 output_path = '/home/aakashdatta/PycharmProjects/Exercise1/Output'
 
 
@@ -35,4 +36,5 @@ def does_test_pass():
 
 if __name__ == "__main__":
     suc_data, fail_data = does_test_pass()
-    print(suc_data)
+    print('Successful tests: {0} \n Failed tests: {1} \n Total number of tests: {2}'.format(suc_data, fail_data, (len(suc_data)+len(fail_data))))
+    print("Execution time: {0} seconds".format((datetime.datetime.now() - begin_time).total_seconds()))
